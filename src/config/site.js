@@ -1,6 +1,6 @@
 export function constructMetadata({
-  title = "Abdullah Agency ",
-  description = "Abdullah Agency is an open-source website.",
+  title = "Enggal Jaya ",
+  description = "Enggal Jaya Cathering website.",
   image = "/agency.PNG",
   icons = "/favicon.ico",
   noIndex = false,

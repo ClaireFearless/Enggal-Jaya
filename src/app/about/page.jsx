@@ -8,31 +8,25 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="Enggal Jaya Cathering">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Enggal Jaya Catering adalah penyedia layanan katering profesional yang berkomitmen memberikan pengalaman kuliner terbaik untuk berbagai kebutuhan acara.
+          Dengan standar kualitas tinggi dan tim berpengalaman, kami telah dipercaya untuk melayani beragam klien, mulai dari individu hingga perusahaan berskala besar.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Kami selalu mengutamakan kualitas bahan, kebersihan, serta pelayanan prima dalam setiap hidangan yang kami sajikan.
+            Menu yang variatif dan fleksibel memungkinkan kami menyesuaikan layanan sesuai kebutuhan, sehingga setiap acara berjalan dengan sukses dan berkesan.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            Didukung dengan pengalaman dan dedikasi yang kuat, Enggal Jaya Catering siap menjadi mitra terpercaya Anda dalam menciptakan momen istimewa melalui sajian kuliner berkualitas.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="100+" label="Successful Events" />
+          <StatListItem value="500+" label="Corporate Clients" />
         </StatList>
       </Container>
       <Cultures />

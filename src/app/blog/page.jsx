@@ -3,10 +3,10 @@ import PageIntro from "@/components/PageIntro";
 const BlogPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
+      <PageIntro eyebrow="Blog" title="Tips Memilih Menu Catering untuk Acara Perusahaan">
         <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+          Memilih menu catering untuk acara perusahaan seringkali menjadi tantangan.
+          Salah memilih menu bisa berdampak pada kenyamanan tamu dan citra perusahaan.
         </p>
       </PageIntro>
     </>

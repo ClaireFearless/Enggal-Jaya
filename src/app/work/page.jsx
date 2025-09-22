@@ -6,12 +6,11 @@ const WorkPage = () => {
     <>
       <PageIntro
         eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        title="Solusi catering terpercaya untuk berbagai acara."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          Kami percaya bahwa setiap hidangan adalah representasi dari komitmen kami terhadap kualitas dan kepuasan pelanggan. Dari acara kecil hingga perayaan besar,
+          kami selalu menghadirkan layanan terbaik dengan menu yang disesuaikan untuk kebutuhan Anda.
         </p>
       </PageIntro>
     </>

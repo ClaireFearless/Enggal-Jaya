@@ -1,24 +1,15 @@
-import Image from "next/image";
-import logoBrightPath from "../images/clients/bright-path/logo-light.svg";
-import logoFamilyFund from "../images/clients/family-fund/logo-light.svg";
-import logoGreenLife from "../images/clients/green-life/logo-light.svg";
-import logoHomeWork from "../images/clients/home-work/logo-light.svg";
-import logoMailSmirk from "../images/clients/mail-smirk/logo-light.svg";
-import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
-import logoPhobiaLight from "../images/clients/phobia/logo-light.svg";
-import logoUnseal from "../images/clients/unseal/logo-light.svg";
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
-  ["Phobia", logoPhobiaLight],
-  ["Family Fund", logoFamilyFund],
-  ["Unseal", logoUnseal],
-  ["Mail Smirk", logoMailSmirk],
-  ["Home Work", logoHomeWork],
-  ["Green Life", logoGreenLife],
-  ["Bright Path", logoBrightPath],
-  ["North Adventures", logoNorthAdventures],
+  ["Wedding Organizer Nusantara"],
+  ["Hotel Harmoni"],
+  ["Event Sejahtera"],
+  ["Resto Lezat"],
+  ["Dapur Nusantara"],
+  ["Festival Makanan"],
+  ["Catering Mantap"],
+  ["Perusahaan Besar"],
 ];
 
 const Clients = () => {
@@ -27,7 +18,7 @@ const Clients = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We have worked with hundreds of amazing people
+            Kami telah dipercaya oleh berbagai mitra dan klien
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -36,10 +27,12 @@ const Clients = () => {
             role="list"
             className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
           >
-            {clients.map(([client, logo]) => (
+            {clients.map(([client]) => (
               <li key={client}>
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
+                  <div className="flex h-16 w-full items-center justify-center rounded-xl bg-white/10 text-white text-sm font-medium">
+                    {client}
+                  </div>
                 </FadeIn>
               </li>
             ))}
