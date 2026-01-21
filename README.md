@@ -1,12 +1,35 @@
-## Features
+# 🍽️ Enggal Jaya Catering – Company Profile Website
 
-- Beautifully designed agency website template.
-- Built using Tailwind CSS and Next.js for a seamless development experience.
-- Enhanced with delightful animations and transitions through Framer Motion.
-- Easy-to-update case studies and blog posts with MDX.
-- Production-ready and highly customizable for your agency's specific needs.
-- A valuable resource for learning how to build websites with Tailwind CSS and React.
+Website company profile modern untuk **Enggal Jaya Catering**, usaha katering industri yang berfokus pada klien korporat.  
+Dibangun sebagai **Single Page Application (SPA)** untuk pengalaman pengguna yang cepat, responsif, dan mulus.
 
-# Enggal-Jaya
+🚀 **Live Demo**  
+👉 https://enggaljaya.vercel.app
 
-This project is a modified version based on [Original Project by Chri](https://github.com/chrhi/studio).
+---
+
+## ✨ Fitur Utama
+- Smooth page load dengan efek fade-in (React Hooks)
+- Responsive design (Mobile, Tablet, Desktop)
+- Smooth scroll navigation antar section
+- Interactive gallery + filter kategori & lightbox
+- Hamburger menu untuk tampilan mobile
+- Google Maps integration
+
+---
+
+## 🛠️ Tech Stack
+- React.js  
+- Vite  
+- Tailwind CSS  
+- Vercel  
+- Lucide React / Heroicons  
+
+---
+
+## 📦 Menjalankan Secara Lokal
+```bash
+git clone https://github.com/username-kamu/enggal-jaya-profile.git
+cd enggal-jaya-profile
+npm install
+npm run dev
