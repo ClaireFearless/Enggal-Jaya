@@ -27,9 +27,17 @@ Dibangun sebagai **Single Page Application (SPA)** untuk pengalaman pengguna yan
 
 ---
 
+## 📄 Credits
+This project is based on work by Abdellah Chehri (MIT License).
+Modified and used for internship purposes.
+This repository is a modified version of an open-source project.
+
+---
+
 ## 📦 Menjalankan Secara Lokal
 ```bash
 git clone https://github.com/username-kamu/enggal-jaya-profile.git
 cd enggal-jaya-profile
 npm install
 npm run dev
+
